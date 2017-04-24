@@ -1,0 +1,44 @@
+//============================================================================
+// Name        : References.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Cow{
+public:
+	int mooCount;
+};
+
+int main() {
+
+	//int ref
+	int i = 51;
+	int &j =i;
+	j=71;
+	cout <<i<<endl;
+
+	//class ref
+	Cow betsy;
+	betsy.mooCount=19;
+	Cow & c= betsy;
+	c.mooCount=20;
+	cout<<betsy.mooCount<<endl;
+
+
+	betsy.mooCount=19;
+	cout<<c.mooCount<<endl;
+
+	int & betsymooCount=betsy.mooCount;
+	cout <<betsymooCount;
+	betsymooCount=5;
+
+	cout <<c.mooCount;
+	cout <<betsy.mooCount;
+
+	return 0;
+}

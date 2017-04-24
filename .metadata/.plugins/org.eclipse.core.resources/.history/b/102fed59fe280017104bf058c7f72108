@@ -1,0 +1,30 @@
+//============================================================================
+// Name        : Writing.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+
+
+	fstream outFile;
+
+	string outputFileName="text.txt";
+
+	outFile.open(outputFileName);
+	if(outFile.is_open()){
+		outFile<<"Hello there"<<endl;
+		outFile<<"123"<<end;
+	}
+	else{
+		cout<<"Could not create file: "<<outputFileName<<endl;
+	}
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

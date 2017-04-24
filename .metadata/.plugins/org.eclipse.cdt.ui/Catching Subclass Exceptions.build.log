@@ -1,0 +1,21 @@
+
+**** Build of configuration Debug for project Catching Subclass Exceptions ****
+
+make all 
+Building file: ../src/Catching Subclass Exceptions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Catching Subclass Exceptions.d" -MT"src/Catching\ Subclass\ Exceptions.d" -o"src/Catching Subclass Exceptions.o" "../src/Catching Subclass Exceptions.cpp"
+../src/Catching Subclass Exceptions.cpp:32:8: warning: exception of type 'std::bad_alloc &' will be caught by earlier handler [-Wexceptions]
+        catch(bad_alloc &e){
+              ^
+../src/Catching Subclass Exceptions.cpp:29:8: note: for type 'std::exception &'
+        catch(exception &e){
+              ^
+1 warning generated.
+Finished building: ../src/Catching Subclass Exceptions.cpp
+ 
+Building target: Catching Subclass Exceptions
+Invoking: MacOS X C++ Linker
+g++  -o "Catching Subclass Exceptions"  ./src/Catching\ Subclass\ Exceptions.o   
+Finished building target: Catching Subclass Exceptions
+ 

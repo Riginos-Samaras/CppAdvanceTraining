@@ -1,0 +1,20 @@
+//============================================================================
+// Name        : Binary.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+struct Person{
+	int age;
+	double weight;
+};
+int main() {
+
+	cout << sizeof(Person)<<endl;
+	return 0;
+}

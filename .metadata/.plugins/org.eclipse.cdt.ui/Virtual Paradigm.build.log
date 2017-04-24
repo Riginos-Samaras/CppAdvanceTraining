@@ -1,0 +1,14 @@
+
+**** Build of configuration Debug for project Virtual Paradigm ****
+
+make all 
+Building file: ../src/Virtual Paradigm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Virtual Paradigm.d" -MT"src/Virtual\ Paradigm.d" -o"src/Virtual Paradigm.o" "../src/Virtual Paradigm.cpp"
+Finished building: ../src/Virtual Paradigm.cpp
+ 
+Building target: Virtual Paradigm
+Invoking: MacOS X C++ Linker
+g++  -o "Virtual Paradigm"  ./src/Virtual\ Paradigm.o   
+Finished building target: Virtual Paradigm
+ 

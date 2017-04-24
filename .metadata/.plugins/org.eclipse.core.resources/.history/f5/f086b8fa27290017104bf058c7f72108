@@ -1,0 +1,45 @@
+//============================================================================
+// Name        : Binary.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+#pragma pack(push,1)
+
+struct Person{
+	char name[50];
+	int age;
+	double height;
+};
+
+
+#pragma pack(pop)
+
+int main() {
+	Person someone={"Frodo",220,0.8};
+	cout << sizeof(int[10])<<endl;
+	cout << sizeof(int)<<endl;
+	cout << sizeof(double)<<endl;
+	cout << sizeof(string)<<endl;
+	cout << sizeof(Person)<<endl;
+	string fileName="test.bin";
+	ofstream outputFile;
+
+	outputFile.open(fileName, ios::binary);
+
+	if(outputFile.is_open()){
+
+		outputFile.write((char*)&someone);
+		outputFile.close();
+
+	}
+
+
+	return 0;
+}

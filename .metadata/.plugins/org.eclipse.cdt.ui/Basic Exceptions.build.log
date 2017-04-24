@@ -1,0 +1,14 @@
+
+**** Build of configuration Debug for project Basic Exceptions ****
+
+make all 
+Building file: ../src/Basic Exceptions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Basic Exceptions.d" -MT"src/Basic\ Exceptions.d" -o"src/Basic Exceptions.o" "../src/Basic Exceptions.cpp"
+Finished building: ../src/Basic Exceptions.cpp
+ 
+Building target: Basic Exceptions
+Invoking: MacOS X C++ Linker
+g++  -o "Basic Exceptions"  ./src/Basic\ Exceptions.o   
+Finished building target: Basic Exceptions
+ 

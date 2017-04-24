@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Catchng Subclass Exceptions/src/Catching Subclass Exceptions&apos; to &apos;Catching Subclass Exceptions.cpp&apos;" description="Rename resource &apos;Catching Subclass Exceptions&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Catching Subclass Exceptions" name="Catching Subclass Exceptions.cpp" stamp="1493044519155" updateReferences="true"/>
+</session>

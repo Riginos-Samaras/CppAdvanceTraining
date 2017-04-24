@@ -1,0 +1,25 @@
+//============================================================================
+// Name        : Custom.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class MyException: public exception
+{
+	public:
+		virtual const char* what() const throw(){
+
+		}
+
+};
+int main() {
+	MyException xp;
+
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

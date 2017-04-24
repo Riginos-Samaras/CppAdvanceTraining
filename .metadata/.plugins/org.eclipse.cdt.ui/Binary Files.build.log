@@ -1,0 +1,14 @@
+
+**** Build of configuration Debug for project Binary Files ****
+
+make all 
+Building file: ../src/Binary Files.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Binary Files.d" -MT"src/Binary\ Files.d" -o"src/Binary Files.o" "../src/Binary Files.cpp"
+Finished building: ../src/Binary Files.cpp
+ 
+Building target: Binary Files
+Invoking: MacOS X C++ Linker
+g++  -o "Binary Files"  ./src/Binary\ Files.o   
+Finished building target: Binary Files
+ 

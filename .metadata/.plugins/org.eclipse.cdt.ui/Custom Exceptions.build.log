@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project Custom Exceptions ****
+
+make all 
+Building file: ../src/Custom Exceptions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Custom Exceptions.d" -MT"src/Custom\ Exceptions.d" -o"src/Custom Exceptions.o" "../src/Custom Exceptions.cpp"
+../src/Custom Exceptions.cpp:14:7: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        int i=10;
+             ^
+1 warning generated.
+Finished building: ../src/Custom Exceptions.cpp
+ 
+Building target: Custom Exceptions
+Invoking: MacOS X C++ Linker
+g++  -o "Custom Exceptions"  ./src/Custom\ Exceptions.o   
+Finished building target: Custom Exceptions
+ 

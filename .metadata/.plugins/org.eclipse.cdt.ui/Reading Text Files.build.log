@@ -1,0 +1,14 @@
+
+**** Build of configuration Debug for project Reading Text Files ****
+
+make all 
+Building file: ../src/Reading Text Files.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reading Text Files.d" -MT"src/Reading\ Text\ Files.d" -o"src/Reading Text Files.o" "../src/Reading Text Files.cpp"
+Finished building: ../src/Reading Text Files.cpp
+ 
+Building target: Reading Text Files
+Invoking: MacOS X C++ Linker
+g++  -o "Reading Text Files"  ./src/Reading\ Text\ Files.o   
+Finished building target: Reading Text Files
+ 

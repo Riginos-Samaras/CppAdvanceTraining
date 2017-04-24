@@ -1,0 +1,14 @@
+
+**** Build of configuration Debug for project Standard Exceptions ****
+
+make all 
+Building file: ../src/Standard Exceptions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Standard Exceptions.d" -MT"src/Standard\ Exceptions.d" -o"src/Standard Exceptions.o" "../src/Standard Exceptions.cpp"
+Finished building: ../src/Standard Exceptions.cpp
+ 
+Building target: Standard Exceptions
+Invoking: MacOS X C++ Linker
+g++  -o "Standard Exceptions"  ./src/Standard\ Exceptions.o   
+Finished building target: Standard Exceptions
+ 
