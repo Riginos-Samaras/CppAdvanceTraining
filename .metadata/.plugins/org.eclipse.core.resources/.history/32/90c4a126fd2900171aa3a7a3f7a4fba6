@@ -1,0 +1,78 @@
+//============================================================================
+// Name        : Overloading.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Test{
+private:
+	static const int b;
+	int id;
+	string name;
+
+public:
+	Test(): id(0),name(""){
+
+	}
+
+	Test(int id, string name): id(id), name(name){
+
+	}
+
+	void print() {
+		cout << id << ": " << name << endl;
+	}
+
+	const Test &operator=(const Test &other){
+		//other.id=10;
+		id = other.id;
+		name = other.name;
+		cout<<"love";
+		return *this;
+	}
+
+	const Test &operator+(const Test &other){
+		id=other.id+1;
+		return *this;
+	}
+
+	Test (const Test &other){
+		cout<<"Copy constructor";
+		id=other.id;
+		name=other.name;
+
+	}
+
+};
+
+int main() {
+
+	Test test1(10,"Mike");
+	test1.print();
+
+	Test test2(20,"Bob");
+
+
+	test2.operator=(test1);
+	test2.print();
+
+	Test test3(30,"Charles");
+
+	test3=test2;
+
+	Test test5=test2;
+
+	test5.print();
+
+
+	test5=test5+test1;
+
+	test5.print();
+
+	return 0;
+}

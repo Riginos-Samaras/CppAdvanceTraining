@@ -1,0 +1,14 @@
+
+**** Build of configuration Debug for project Two Dimensional Vectors ****
+
+make all 
+Building file: ../src/Two Dimensional Vectors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Two Dimensional Vectors.d" -MT"src/Two\ Dimensional\ Vectors.d" -o"src/Two Dimensional Vectors.o" "../src/Two Dimensional Vectors.cpp"
+Finished building: ../src/Two Dimensional Vectors.cpp
+ 
+Building target: Two Dimensional Vectors
+Invoking: MacOS X C++ Linker
+g++  -o "Two Dimensional Vectors"  ./src/Two\ Dimensional\ Vectors.o   
+Finished building target: Two Dimensional Vectors
+ 

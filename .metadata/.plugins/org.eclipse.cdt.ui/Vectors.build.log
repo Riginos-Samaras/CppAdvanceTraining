@@ -1,0 +1,14 @@
+
+**** Build of configuration Debug for project Vectors ****
+
+make all 
+Building file: ../src/Vectors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Vectors.d" -MT"src/Vectors.d" -o"src/Vectors.o" "../src/Vectors.cpp"
+Finished building: ../src/Vectors.cpp
+ 
+Building target: Vectors
+Invoking: MacOS X C++ Linker
+g++  -o "Vectors"  ./src/Vectors.o   
+Finished building target: Vectors
+ 

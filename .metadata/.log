@@ -3453,3 +3453,73 @@ org.eclipse.core.internal.resources.ResourceException: Resource is out of sync w
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
 !SUBENTRY 1 org.eclipse.core.resources 4 274 2017-04-24 22:56:10.119
 !MESSAGE Resource is out of sync with the file system: '/Binary Files/test.bin'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-24 23:27:50.226
+!MESSAGE Indexed 'Vectors' (1 sources, 272 headers) in 1.08 sec: 4,239 declarations; 15,235 references; 0 unresolved inclusions; 47 syntax errors; 63 unresolved names (0.32%)
+!SESSION 2017-04-24 23:57:56.757 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/Riginos/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/Riginos/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2017-04-24 23:58:04.252
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-25 00:31:46.149
+!MESSAGE Indexed 'Vectors and Memory' (1 sources, 272 headers) in 2.29 sec: 4,239 declarations; 15,235 references; 0 unresolved inclusions; 47 syntax errors; 63 unresolved names (0.32%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2017-04-25 00:33:09.905
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/Riginos/Dropbox/Projects/Udemy/CppAdvanceTraining/Vectors and Memory/Debug/Vectors and Memory not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:663)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:679)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:924)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1128)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-25 20:09:21.036
+!MESSAGE Indexed 'Two Dimensional Vectors' (1 sources, 272 headers) in 1.51 sec: 4,239 declarations; 15,235 references; 0 unresolved inclusions; 47 syntax errors; 63 unresolved names (0.32%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-25 20:32:21.717
+!MESSAGE Indexed 'STL Complex Data Types' (1 sources, 272 headers) in 1.25 sec: 4,239 declarations; 15,235 references; 0 unresolved inclusions; 47 syntax errors; 63 unresolved names (0.32%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2017-04-25 20:40:40.424
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/Riginos/Dropbox/Projects/Udemy/CppAdvanceTraining/STL Complex Data Types/Debug/STL Complex Data Types not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:663)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:679)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:924)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1128)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-25 22:11:55.962
+!MESSAGE Indexed 'Overloading the Assignment Operator' (1 sources, 272 headers) in 1.46 sec: 4,239 declarations; 15,235 references; 0 unresolved inclusions; 47 syntax errors; 63 unresolved names (0.32%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2017-04-25 23:59:44.790
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/Riginos/Dropbox/Projects/Udemy/CppAdvanceTraining/Overloading the Assignment Operator/Debug/Overloading the Assignment Operator not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:663)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:679)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:924)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1128)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-26 00:35:06.024
+!MESSAGE Indexed 'Overloading the Insertion Operator for Printing' (1 sources, 272 headers) in 1.24 sec: 4,239 declarations; 15,235 references; 0 unresolved inclusions; 47 syntax errors; 63 unresolved names (0.32%)

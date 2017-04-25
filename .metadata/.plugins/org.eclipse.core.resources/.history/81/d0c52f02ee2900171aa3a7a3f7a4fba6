@@ -1,0 +1,51 @@
+//============================================================================
+// Name        : Overloading.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Animal{
+public:
+	int eyes;
+	int legs;
+	Animal():eyes(2),legs(4){
+
+
+	}
+
+
+};
+
+class Cat: Animal{
+public:
+	int tail;
+	Cat():tail(1){
+	}
+
+};
+
+int main() {
+
+	Animal cat,dog,zebra;
+
+	Cat cat1;
+	cat.eyes=2;
+	dog=zebra=cat;
+
+	cat.eyes=2;
+
+
+cat1.eyes=10;
+//cout<<cat1.eyes<<endl;
+
+
+
+
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

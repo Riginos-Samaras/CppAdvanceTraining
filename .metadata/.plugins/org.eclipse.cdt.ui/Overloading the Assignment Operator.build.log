@@ -1,0 +1,14 @@
+
+**** Build of configuration Debug for project Overloading the Assignment Operator ****
+
+make all 
+Building file: ../src/Overloading the Assignment Operator.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Overloading the Assignment Operator.d" -MT"src/Overloading\ the\ Assignment\ Operator.d" -o"src/Overloading the Assignment Operator.o" "../src/Overloading the Assignment Operator.cpp"
+Finished building: ../src/Overloading the Assignment Operator.cpp
+ 
+Building target: Overloading the Assignment Operator
+Invoking: MacOS X C++ Linker
+g++  -o "Overloading the Assignment Operator"  ./src/Overloading\ the\ Assignment\ Operator.o   
+Finished building target: Overloading the Assignment Operator
+ 

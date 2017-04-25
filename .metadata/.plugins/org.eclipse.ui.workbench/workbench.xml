@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="17" version="2.0">
+<workbench progressCount="19" version="2.0">
 <workbenchAdvisor/>
-<window height="768" width="1419" x="21" y="54">
+<window height="767" width="908" x="532" y="54">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -14,10 +14,11 @@
 <coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="69" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="100" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="98" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="189" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -29,26 +30,92 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Basic Exceptions.cpp" partName="Basic Exceptions.cpp" path="/Users/Riginos/Dropbox/Projects/Udemy/CppAdvanceTraining/Basic Exceptions/src/Basic Exceptions.cpp" title="Basic Exceptions.cpp" tooltip="Basic Exceptions/src/Basic Exceptions.cpp" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Basic Exceptions.cpp" partName="Basic Exceptions.cpp" path="/Users/Riginos/Dropbox/Projects/Udemy/CppAdvanceTraining/Basic Exceptions/src/Basic Exceptions.cpp" title="Basic Exceptions.cpp" tooltip="Basic Exceptions/src/Basic Exceptions.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Basic Exceptions/src/Basic Exceptions.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="765" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="389" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Standard Exceptions.cpp" partName="Standard Exceptions.cpp" path="/Users/Riginos/Dropbox/Projects/Udemy/CppAdvanceTraining/Standard Exceptions/src/Standard Exceptions.cpp" title="Standard Exceptions.cpp" tooltip="Standard Exceptions/src/Standard Exceptions.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Standard Exceptions/src/Standard Exceptions.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="594" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Catching Subclass Exceptions.cpp" partName="Catching Subclass Exceptions.cpp" path="/Users/Riginos/Dropbox/Projects/Udemy/CppAdvanceTraining/Catching Subclass Exceptions/src/Catching Subclass Exceptions.cpp" title="Catching Subclass Exceptions.cpp" tooltip="Catching Subclass Exceptions/src/Catching Subclass Exceptions.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Catching Subclass Exceptions/src/Catching Subclass Exceptions.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="672" selectionTopPixel="44"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Writing Text Files.cpp" partName="Writing Text Files.cpp" path="/Users/Riginos/Dropbox/Projects/Udemy/CppAdvanceTraining/Writing Text Files/src/Writing Text Files.cpp" title="Writing Text Files.cpp" tooltip="Writing Text Files/src/Writing Text Files.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Writing Text Files/src/Writing Text Files.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="609" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="text.txt" partName="text.txt" path="/Users/Riginos/Dropbox/Projects/Udemy/CppAdvanceTraining/Writing Text Files/text.txt" title="text.txt" tooltip="Writing Text Files/text.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Writing Text Files/text.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="57" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Reading Text Files.cpp" partName="Reading Text Files.cpp" path="/Users/Riginos/Dropbox/Projects/Udemy/CppAdvanceTraining/Reading Text Files/src/Reading Text Files.cpp" title="Reading Text Files.cpp" tooltip="Reading Text Files/src/Reading Text Files.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reading Text Files/src/Reading Text Files.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="536" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="test.txt" partName="test.txt" path="/Users/Riginos/Dropbox/Projects/Udemy/CppAdvanceTraining/Reading Text Files/test.txt" title="test.txt" tooltip="Reading Text Files/test.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reading Text Files/test.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="57" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="stats.txt" partName="stats.txt" path="/Users/Riginos/Dropbox/Projects/Udemy/CppAdvanceTraining/Parsing Text in Files/stats.txt" title="stats.txt" tooltip="Parsing Text in Files/stats.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Parsing Text in Files/stats.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="46" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Custom Exceptions.cpp" partName="Custom Exceptions.cpp" path="/Users/Riginos/Dropbox/Projects/Udemy/CppAdvanceTraining/Custom Exceptions/src/Custom Exceptions.cpp" title="Custom Exceptions.cpp" tooltip="Custom Exceptions/src/Custom Exceptions.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Custom Exceptions/src/Custom Exceptions.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="419" selectionTopPixel="141"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="exception" partName="exception" title="exception" tooltip="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/exception" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/exception" project="Custom Exceptions"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="2393" selectionTopPixel="1200"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Virtual Paradigm.cpp" partName="Virtual Paradigm.cpp" path="/Users/Riginos/Dropbox/Projects/Udemy/CppAdvanceTraining/Virtual Paradigm/src/Virtual Paradigm.cpp" title="Virtual Paradigm.cpp" tooltip="Virtual Paradigm/src/Virtual Paradigm.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Virtual Paradigm/src/Virtual Paradigm.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Binary Files.cpp" partName="Binary Files.cpp" path="/Users/Riginos/Dropbox/Projects/Udemy/CppAdvanceTraining/Binary Files/src/Binary Files.cpp" title="Binary Files.cpp" tooltip="Binary Files/src/Binary Files.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Binary Files/src/Binary Files.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="905" selectionTopPixel="596"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="test.bin" partName="test.bin" path="/Users/Riginos/Dropbox/Projects/Udemy/CppAdvanceTraining/Binary Files/test.bin" title="test.bin" tooltip="Binary Files/test.bin" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Binary Files/test.bin"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Vectors.cpp" partName="Vectors.cpp" path="/Users/Riginos/Dropbox/Projects/Udemy/CppAdvanceTraining/Vectors/src/Vectors.cpp" title="Vectors.cpp" tooltip="Vectors/src/Vectors.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Vectors/src/Vectors.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="409" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
-<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (1 item)"/>
-<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Errors (3 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="114" org.eclipse.ui.ide.pathField="144" org.eclipse.ui.ide.resourceField="114" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -56,19 +123,34 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
-<DESCENDING_FIELDS IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 </viewState>
 </view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
+<viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
+<sorter groupBy="CATEGORY_QUERY">
+<sorter>
+<sort0 sortDirection="1" sortKey="PRIORITY"/>
+<sort1 sortDirection="1" sortKey="RANK"/>
+<sort2 sortDirection="1" sortKey="DATE_CREATED"/>
+<sort3 sortDirection="1" sortKey="NONE"/>
+<sort4 sortDirection="1" sortKey="NONE"/>
+<sort5 sortDirection="1" sortKey="NONE"/>
+<sort6 sortDirection="1" sortKey="NONE"/>
+<sort7 sortDirection="1" sortKey="NONE"/>
+</sorter>
+</sorter>
+<filteredTreeFindHistory/>
+</viewState>
+</view>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.cdt.ui.CPerspective">
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.eclipse.cdt.ui.CPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -124,10 +206,15 @@
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.eclipse.cdt.make.ui.views.MakeView"/>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="topRight" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+<view id="org.eclipse.cdt.make.ui.views.MakeView" ratio="0.3"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
@@ -149,8 +236,8 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="254" ratioRight="762" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.74963397" ratioLeft="512" ratioRight="171" relationship="4" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.20321469" ratioLeft="177" ratioRight="694" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.6210046" ratioLeft="408" ratioRight="249" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -164,16 +251,12 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="topRight" ratio="0.7493438" ratioLeft="571" ratioRight="191" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<page content="org.eclipse.cdt.make.ui.views.MakeView" label="Make Target"/>
-<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-</presentation>
+<info folder="true" part="topRight" ratio="0.828201" ratioLeft="511" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.cdt.make.ui.views.MakeView" label="LabelNotFound"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -183,13 +266,165 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Basic Exceptions/src/Basic Exceptions.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Reading Text Files/src/Reading Text Files.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Parsing Text in Files/src/Parsing Text in Files.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Parsing Text in Files/stats.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Custom Exceptions/src/Custom Exceptions.cpp"/>
+<editor factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/exception" project="Custom Exceptions"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Virtual Paradigm/src/Virtual Paradigm.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Binary Files/src/Binary Files.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Binary Files/test.bin"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Vectors/src/Vectors.cpp"/>
 </editors>
-<item historyLabel="Basic Exceptions.cpp" index="0">
-<position info="not_deleted" x="0" y="765"/>
+<item historyLabel="Custom Exceptions.cpp" index="3">
+<position info="not_deleted" x="383" y="0"/>
 </item>
-<item active="true" historyLabel="Basic Exceptions.cpp" index="0">
-<position info="not_deleted" x="0" y="765"/>
+<item historyLabel="exception" index="4">
+<position info="not_deleted" x="2393" y="9"/>
+</item>
+<item historyLabel="Reading Text Files.cpp" index="0">
+<position info="not_deleted" x="536" y="0"/>
+</item>
+<item historyLabel="Custom Exceptions.cpp" index="3">
+<position info="not_deleted" x="419" y="0"/>
+</item>
+<item historyLabel="Virtual Paradigm.cpp" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Parsing Text in Files.cpp" index="1">
+<position info="not_deleted" x="671" y="0"/>
+</item>
+<item historyLabel="stats.txt" index="2">
+<position info="not_deleted" x="46" y="0"/>
+</item>
+<item historyLabel="Parsing Text in Files.cpp" index="1">
+<position info="not_deleted" x="671" y="0"/>
+</item>
+<item historyLabel="Parsing Text in Files.cpp" index="1">
+<position info="not_deleted" x="454" y="0"/>
+</item>
+<item historyLabel="Parsing Text in Files.cpp" index="1">
+<position info="not_deleted" x="477" y="0"/>
+</item>
+<item historyLabel="Parsing Text in Files.cpp" index="1">
+<position info="not_deleted" x="476" y="0"/>
+</item>
+<item historyLabel="Parsing Text in Files.cpp" index="1">
+<position info="not_deleted" x="508" y="0"/>
+</item>
+<item historyLabel="Parsing Text in Files.cpp" index="1">
+<position info="not_deleted" x="551" y="0"/>
+</item>
+<item historyLabel="Parsing Text in Files.cpp" index="1">
+<position info="not_deleted" x="551" y="0"/>
+</item>
+<item historyLabel="Parsing Text in Files.cpp" index="1">
+<position info="not_deleted" x="606" y="0"/>
+</item>
+<item historyLabel="Parsing Text in Files.cpp" index="1">
+<position info="not_deleted" x="617" y="0"/>
+</item>
+<item historyLabel="Parsing Text in Files.cpp" index="1">
+<position info="not_deleted" x="625" y="0"/>
+</item>
+<item historyLabel="Parsing Text in Files.cpp" index="1">
+<position info="not_deleted" x="642" y="0"/>
+</item>
+<item historyLabel="Parsing Text in Files.cpp" index="1">
+<position info="not_deleted" x="551" y="0"/>
+</item>
+<item historyLabel="stats.txt" index="2">
+<position info="not_deleted" x="46" y="0"/>
+</item>
+<item historyLabel="Parsing Text in Files.cpp" index="1">
+<position info="not_deleted" x="551" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="1221" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="389" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="420" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="702" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="766" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="794" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="793" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="665" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="664" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="847" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="869" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="823" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="904" y="0"/>
+</item>
+<item historyLabel="test.bin" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stats.txt" index="2">
+<position info="not_deleted" x="46" y="0"/>
+</item>
+<item historyLabel="Virtual Paradigm.cpp" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="904" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="902" y="0"/>
+</item>
+<item historyLabel="test.bin" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="test.bin" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="904" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="1136" y="0"/>
+</item>
+<item historyLabel="Binary Files.cpp" index="6">
+<position info="not_deleted" x="905" y="0"/>
+</item>
+<item historyLabel="Vectors.cpp" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Vectors.cpp" index="8">
+<position info="not_deleted" x="346" y="0"/>
+</item>
+<item active="true" historyLabel="Vectors.cpp" index="8">
+<position info="not_deleted" x="398" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -197,6 +432,12 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="topRight"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -204,12 +445,55 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Basic Exceptions.cpp" tooltip="Basic Exceptions/src/Basic Exceptions.cpp">
-<persistable path="/Basic Exceptions/src/Basic Exceptions.cpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Vectors.cpp" tooltip="Vectors/src/Vectors.cpp">
+<persistable path="/Vectors/src/Vectors.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test.bin" tooltip="Binary Files/test.bin">
+<persistable path="/Binary Files/test.bin"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Binary Files.cpp" tooltip="Binary Files/src/Binary Files.cpp">
+<persistable path="/Binary Files/src/Binary Files.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Virtual Paradigm.cpp" tooltip="Virtual Paradigm/src/Virtual Paradigm.cpp">
+<persistable path="/Virtual Paradigm/src/Virtual Paradigm.cpp"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="exception" tooltip="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/exception">
+<persistable path="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/exception" project="Custom Exceptions"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Custom Exceptions.cpp" tooltip="Custom Exceptions/src/Custom Exceptions.cpp">
+<persistable path="/Custom Exceptions/src/Custom Exceptions.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="stats.txt" tooltip="Parsing Text in Files/stats.txt">
+<persistable path="/Parsing Text in Files/stats.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Parsing Text in Files.cpp" tooltip="Parsing Text in Files/src/Parsing Text in Files.cpp">
+<persistable path="/Parsing Text in Files/src/Parsing Text in Files.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test.txt" tooltip="Reading Text Files/test.txt">
+<persistable path="/Reading Text Files/test.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Reading Text Files.cpp" tooltip="Reading Text Files/src/Reading Text Files.cpp">
+<persistable path="/Reading Text Files/src/Reading Text Files.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="text.txt" tooltip="Writing Text Files/text.txt">
+<persistable path="/Writing Text Files/text.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="text.txt" tooltip="Writing Text Files/src/text.txt">
+<persistable path="/Writing Text Files/src/text.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Writing Text Files.cpp" tooltip="Writing Text Files/src/Writing Text Files.cpp">
+<persistable path="/Writing Text Files/src/Writing Text Files.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Catching Subclass Exceptions.cpp" tooltip="Catching Subclass Exceptions/src/Catching Subclass Exceptions.cpp">
+<persistable path="/Catching Subclass Exceptions/src/Catching Subclass Exceptions.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="Catchng Subclass Exceptions" tooltip="Catchng Subclass Exceptions/Debug/Catchng Subclass Exceptions">
+<persistable path="/Catchng Subclass Exceptions/Debug/Catchng Subclass Exceptions"/>
 </file>
 </mruList>
 </workbench>
